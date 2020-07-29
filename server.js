@@ -16,6 +16,10 @@ var icecreams = [
     { name: "pistachio", price: 11, awesomeness: 15 }
   ];
 
+app.get(`/`, (req, res) => {
+ res.render('index')
+})
+
 app.get(`/icecream/:name`, (req, res) => {
 
 })
